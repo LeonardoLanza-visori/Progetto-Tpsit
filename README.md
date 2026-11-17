@@ -18,4 +18,4 @@
 | _git log --oneline_ | Cronologia dei commit |
 
 
-# Questo è il README aggiornato della branch nuova
+# Titolo-B
