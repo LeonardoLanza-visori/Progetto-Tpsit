@@ -5,6 +5,7 @@
 2. _Alessandro Carraro_
 
 | __Comando__ | __Che cosa fa__ |
+| :---------- | :-------------- |
 | _git clone URL_ | Copia un repository da Github |
 | _git status_ | Mostra che cosa è cambiato | 
 | _git add FILE_ | Prepara il file per il commt | 
