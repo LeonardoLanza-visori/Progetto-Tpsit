@@ -1,0 +1,98 @@
+[
+  {
+    "titolo": "Inception",
+    "anno": 2010,
+    "genere": "Sci-Fi",
+    "durata_minuti": 148,
+    "regista": "Christopher Nolan",
+    "voto": 8.8
+  },
+  {
+    "titolo": "The Dark Knight",
+    "anno": 2008,
+    "genere": "Azione",
+    "durata_minuti": 152,
+    "regista": "Christopher Nolan",
+    "voto": 9.0
+  },
+  {
+    "titolo": "Pulp Fiction",
+    "anno": 1994,
+    "genere": "Crime",
+    "durata_minuti": 154,
+    "regista": "Quentin Tarantino",
+    "voto": 8.9
+  },
+  {
+    "titolo": "The Matrix",
+    "anno": 1999,
+    "genere": "Sci-Fi",
+    "durata_minuti": 136,
+    "regista": "The Wachowskis",
+    "voto": 8.7
+  },
+  {
+    "titolo": "Interstellar",
+    "anno": 2014,
+    "genere": "Sci-Fi",
+    "durata_minuti": 169,
+    "regista": "Christopher Nolan",
+    "voto": 8.7
+  },
+  {
+    "titolo": "The Shawshank Redemption",
+    "anno": 1994,
+    "genere": "Drammatico",
+    "durata_minuti": 142,
+    "regista": "Frank Darabont",
+    "voto": 9.3
+  },
+  {
+    "titolo": "Forrest Gump",
+    "anno": 1994,
+    "genere": "Drammatico",
+    "durata_minuti": 142,
+    "regista": "Robert Zemeckis",
+    "voto": 8.8
+  },
+  {
+    "titolo": "The Godfather",
+    "anno": 1972,
+    "genere": "Crime",
+    "durata_minuti": 175,
+    "regista": "Francis Ford Coppola",
+    "voto": 9.2
+  },
+  {
+    "titolo": "Fight Club",
+    "anno": 1999,
+    "genere": "Thriller",
+    "durata_minuti": 139,
+    "regista": "David Fincher",
+    "voto": 8.8
+  },
+  {
+    "titolo": "Toy Story",
+    "anno": 1995,
+    "genere": "Animazione",
+    "durata_minuti": 81,
+    "regista": "John Lasseter",
+    "voto": 8.3
+  },
+  {
+    "titolo": "Spirited Away",
+    "anno": 2001,
+    "genere": "Animazione",
+    "durata_minuti": 125,
+    "regista": "Hayao Miyazaki",
+    "voto": 8.6
+  },
+  {
+    "titolo": "La vita è bella",
+    "anno": 1997,
+    "genere": "Commedia drammatica",
+    "durata_minuti": 116,
+    "regista": "Roberto Benigni",
+    "voto": 8.6
+  }
+]
