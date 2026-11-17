@@ -16,3 +16,6 @@
 | _git switch NOME_ | Cambia branch |
 | _git branch_ | Elenca i branch |
 | _git log --oneline_ | Cronologia dei commit |
+
+
+# Questo è il README aggiornato della branch nuova
