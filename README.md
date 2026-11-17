@@ -17,5 +17,5 @@
 | _git branch_ | Elenca i branch |
 | _git log --oneline_ | Cronologia dei commit |
 
-
 # Titolo-B
+
