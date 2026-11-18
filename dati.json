@@ -1,136 +1,175 @@
-{
-  "books": [
-    {
-      "id": 1,
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "genre": "Fiction",
-      "publication_year": 1960,
-      "isbn": "978-0061120084",
-      "pages": 324,
-      "language": "English",
-      "available": true
-    },
-    {
-      "id": 2,
-      "title": "1984",
-      "author": "George Orwell",
-      "genre": "Dystopian",
-      "publication_year": 1949,
-      "isbn": "978-0451524935",
-      "pages": 328,
-      "language": "English",
-      "available": true
-    },
-    {
-      "id": 3,
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "genre": "Romance",
-      "publication_year": 1813,
-      "isbn": "978-1503290563",
-      "pages": 279,
-      "language": "English",
-      "available": false
-    },
-    {
-      "id": 4,
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "genre": "Fiction",
-      "publication_year": 1925,
-      "isbn": "978-0743273565",
-      "pages": 180,
-      "language": "English",
-      "available": true
-    },
-    {
-      "id": 5,
-      "title": "One Hundred Years of Solitude",
-      "author": "Gabriel García Márquez",
-      "genre": "Magical Realism",
-      "publication_year": 1967,
-      "isbn": "978-0060883287",
-      "pages": 417,
-      "language": "Spanish",
-      "available": true
-    },
-    {
-      "id": 6,
-      "title": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "genre": "Fantasy",
-      "publication_year": 1937,
-      "isbn": "978-0547928227",
-      "pages": 310,
-      "language": "English",
-      "available": false
-    },
-    {
-      "id": 7,
-      "title": "Crime and Punishment",
-      "author": "Fyodor Dostoevsky",
-      "genre": "Psychological Fiction",
-      "publication_year": 1866,
-      "isbn": "978-0486415871",
-      "pages": 671,
-      "language": "Russian",
-      "available": true
-    },
-    {
-      "id": 8,
-      "title": "The Catcher in the Rye",
-      "author": "J.D. Salinger",
-      "genre": "Fiction",
-      "publication_year": 1951,
-      "isbn": "978-0316769488",
-      "pages": 277,
-      "language": "English",
-      "available": true
-    },
-    {
-      "id": 9,
-      "title": "Dune",
-      "author": "Frank Herbert",
-      "genre": "Science Fiction",
-      "publication_year": 1965,
-      "isbn": "978-0441172719",
-      "pages": 688,
-      "language": "English",
-      "available": false
-    },
-    {
-      "id": 10,
-      "title": "The Name of the Rose",
-      "author": "Umberto Eco",
-      "genre": "Historical Mystery",
-      "publication_year": 1980,
-      "isbn": "978-0544176560",
-      "pages": 536,
-      "language": "Italian",
-      "available": true
-    },
-    {
-      "id": 11,
-      "title": "Brave New World",
-      "author": "Aldous Huxley",
-      "genre": "Science Fiction",
-      "publication_year": 1932,
-      "isbn": "978-0060850524",
-      "pages": 268,
-      "language": "English",
-      "available": true
-    },
-    {
-      "id": 12,
-      "title": "The Little Prince",
-      "author": "Antoine de Saint-Exupéry",
-      "genre": "Fable",
-      "publication_year": 1943,
-      "isbn": "978-0156012195",
-      "pages": 96,
-      "language": "French",
-      "available": true
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "titolo": "La casa sul fiume",
+    "autore": "Anna Bellini",
+    "anno": 2015,
+    "pagine": 280,
+    "disponibile": true,
+    "generi": [
+      "narrativa",
+      "giallo"
+    ]
+  },
+  {
+    "id": 2,
+    "titolo": "Il drago di carta",
+    "autore": "Paolo Neri",
+    "anno": 2018,
+    "pagine": 120,
+    "disponibile": true,
+    "generi": [
+      "ragazzi",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 3,
+    "titolo": "Notte a Venezia",
+    "autore": "Elena Marchi",
+    "anno": 2020,
+    "pagine": 340,
+    "disponibile": false,
+    "generi": [
+      "narrativa",
+      "romantico"
+    ]
+  },
+  {
+    "id": 4,
+    "titolo": "Storia del computer",
+    "autore": "Marco Valli",
+    "anno": 2012,
+    "pagine": 410,
+    "disponibile": true,
+    "generi": [
+      "saggistica"
+    ]
+  },
+  {
+    "id": 5,
+    "titolo": "Il gatto astronauta",
+    "autore": "Sara Fontana",
+    "anno": 2021,
+    "pagine": 96,
+    "disponibile": true,
+    "generi": [
+      "ragazzi"
+    ]
+  },
+  {
+    "id": 6,
+    "titolo": "L'ultimo faro",
+    "autore": "Luca Ferri",
+    "anno": 2009,
+    "pagine": 220,
+    "disponibile": false,
+    "generi": [
+      "narrativa",
+      "avventura"
+    ]
+  },
+  {
+    "id": 7,
+    "titolo": "Cuori di ferro",
+    "autore": "Giorgio Rizzo",
+    "anno": 2017,
+    "pagine": 305,
+    "disponibile": true,
+    "generi": [
+      "fantasy",
+      "avventura"
+    ]
+  },
+  {
+    "id": 8,
+    "titolo": "Il mistero del porto",
+    "autore": "Anna Bellini",
+    "anno": 2019,
+    "pagine": 260,
+    "disponibile": true,
+    "generi": [
+      "giallo"
+    ]
+  },
+  {
+    "id": 9,
+    "titolo": "Cucina in dieci minuti",
+    "autore": "Chiara Longo",
+    "anno": 2016,
+    "pagine": 150,
+    "disponibile": true,
+    "generi": [
+      "cucina"
+    ]
+  },
+  {
+    "id": 10,
+    "titolo": "Reti e protocolli",
+    "autore": "Marco Valli",
+    "anno": 2022,
+    "pagine": 380,
+    "disponibile": false,
+    "generi": [
+      "saggistica",
+      "informatica"
+    ]
+  },
+  {
+    "id": 11,
+    "titolo": "Le stelle di agosto",
+    "autore": "Elena Marchi",
+    "anno": 2014,
+    "pagine": 198,
+    "disponibile": true,
+    "generi": [
+      "romantico"
+    ]
+  },
+  {
+    "id": 12,
+    "titolo": "Programmare con calma",
+    "autore": "Davide Conti",
+    "anno": 2023,
+    "pagine": 275,
+    "disponibile": true,
+    "generi": [
+      "informatica"
+    ]
+  },
+  {
+    "id": 13,
+    "titolo": "Il bosco sussurra",
+    "autore": "Paolo Neri",
+    "anno": 2020,
+    "pagine": 134,
+    "disponibile": false,
+    "generi": [
+      "ragazzi",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 14,
+    "titolo": "Delitto al museo",
+    "autore": "Giorgio Rizzo",
+    "anno": 2018,
+    "pagine": 312,
+    "disponibile": true,
+    "generi": [
+      "giallo"
+    ]
+  },
+  {
+    "id": 15,
+    "titolo": "Viaggio in bicicletta",
+    "autore": "Sara Fontana",
+    "anno": 2013,
+    "pagine": 188,
+    "disponibile": true,
+    "generi": [
+      "avventura",
+      "saggistica"
+    ]
+  }
+]

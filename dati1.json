@@ -1,0 +1,136 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "publication_year": 1960,
+      "isbn": "978-0061120084",
+      "pages": 324,
+      "language": "English",
+      "available": true
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "publication_year": 1949,
+      "isbn": "978-0451524935",
+      "pages": 328,
+      "language": "English",
+      "available": true
+    },
+    {
+      "id": 3,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "publication_year": 1813,
+      "isbn": "978-1503290563",
+      "pages": 279,
+      "language": "English",
+      "available": false
+    },
+    {
+      "id": 4,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Fiction",
+      "publication_year": 1925,
+      "isbn": "978-0743273565",
+      "pages": 180,
+      "language": "English",
+      "available": true
+    },
+    {
+      "id": 5,
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "genre": "Magical Realism",
+      "publication_year": 1967,
+      "isbn": "978-0060883287",
+      "pages": 417,
+      "language": "Spanish",
+      "available": true
+    },
+    {
+      "id": 6,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "publication_year": 1937,
+      "isbn": "978-0547928227",
+      "pages": 310,
+      "language": "English",
+      "available": false
+    },
+    {
+      "id": 7,
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Psychological Fiction",
+      "publication_year": 1866,
+      "isbn": "978-0486415871",
+      "pages": 671,
+      "language": "Russian",
+      "available": true
+    },
+    {
+      "id": 8,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Fiction",
+      "publication_year": 1951,
+      "isbn": "978-0316769488",
+      "pages": 277,
+      "language": "English",
+      "available": true
+    },
+    {
+      "id": 9,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Science Fiction",
+      "publication_year": 1965,
+      "isbn": "978-0441172719",
+      "pages": 688,
+      "language": "English",
+      "available": false
+    },
+    {
+      "id": 10,
+      "title": "The Name of the Rose",
+      "author": "Umberto Eco",
+      "genre": "Historical Mystery",
+      "publication_year": 1980,
+      "isbn": "978-0544176560",
+      "pages": 536,
+      "language": "Italian",
+      "available": true
+    },
+    {
+      "id": 11,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "genre": "Science Fiction",
+      "publication_year": 1932,
+      "isbn": "978-0060850524",
+      "pages": 268,
+      "language": "English",
+      "available": true
+    },
+    {
+      "id": 12,
+      "title": "The Little Prince",
+      "author": "Antoine de Saint-Exupéry",
+      "genre": "Fable",
+      "publication_year": 1943,
+      "isbn": "978-0156012195",
+      "pages": 96,
+      "language": "French",
+      "available": true
+    }
+  ]
+}
