@@ -4,7 +4,7 @@ $json = file_get_contents('dati.json');
 $libri = json_decode($json, true);
 //var_dump($libri);
 
-// filtro: ?cerca=giardino
+// filtro: ?cerca=fantascienza
 $cerca = '';
 if (isset($_GET['cerca']) && is_string($_GET['cerca'])) {
     $cerca = trim($_GET['cerca']);
@@ -12,21 +12,25 @@ if (isset($_GET['cerca']) && is_string($_GET['cerca'])) {
 if ($cerca != '') {
     $trovati = [];
     foreach ($libri as $l) {
-        if (stripos($l['autore'], $cerca) !== false || stripos($l['titolo'], $cerca) !== false) {
+        if (
+            stripos($l['autore'], $cerca) !== false ||
+            stripos($l['titolo'], $cerca) !== false ||
+            stripos(implode(', ', $l['generi']), $cerca) !== false
+        ) {
             $trovati[] = $l;
         }
     }
     $libri = $trovati;
 }
 
-// statistica: pagine medie
-$tot = 0;
+// libro con il maggior numero di pagine
+$maxPagine = 0;
+$titoloMax = '';
 foreach ($libri as $l) {
-    $tot = $tot + $l['pagine'];
-}
-$media = 0;
-if (count($libri) > 0) {
-    $media = round($tot / count($libri));
+    if ($l['pagine'] > $maxPagine) {
+        $maxPagine = $l['pagine'];
+        $titoloMax = $l['titolo'];
+    }
 }
 ?>
 <!DOCTYPE html>
@@ -37,10 +41,16 @@ if (count($libri) > 0) {
 <body>
 <h1>Biblioteca</h1>
 <form method="get">
-  Titolo o autore: <input name="cerca" value="<?= htmlspecialchars($cerca, ENT_QUOTES, 'UTF-8') ?>">
+  Titolo, autore o genere: <input name="cerca" value="<?= htmlspecialchars($cerca, ENT_QUOTES, 'UTF-8') ?>">
   <button>Cerca</button>
 </form>
-<p>Libri trovati: <?= count($libri) ?> - pagine medie: <?= $media ?></p>
+<p>Libri trovati: <?= count($libri) ?> - libro con più pagine:
+<?php if ($titoloMax !== ''): ?>
+  <?= htmlspecialchars($titoloMax, ENT_QUOTES, 'UTF-8') ?> (<?= $maxPagine ?> pagine)
+<?php else: ?>
+  nessuno
+<?php endif; ?>
+</p>
 <table>
 <tr><th>ID</th><th>Titolo</th><th>Autore</th><th>Anno</th><th>Pagine</th><th>Disponibile</th><th>Generi</th></tr>
 <?php foreach ($libri as $l): ?>
