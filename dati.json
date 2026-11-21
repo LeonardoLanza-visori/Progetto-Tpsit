@@ -1,175 +1,182 @@
 [
   {
     "id": 1,
-    "titolo": "La casa sul fiume",
-    "autore": "Anna Bellini",
-    "anno": 2015,
-    "pagine": 280,
+    "titolo": "Il giardino delle ombre",
+    "autore": "Bianca Moretti",
+    "anno": 2019,
+    "pagine": 312,
     "disponibile": true,
     "generi": [
       "narrativa",
-      "giallo"
+      "mistero"
     ]
   },
   {
     "id": 2,
-    "titolo": "Il drago di carta",
-    "autore": "Paolo Neri",
-    "anno": 2018,
-    "pagine": 120,
-    "disponibile": true,
+    "titolo": "Oltre il confine di Marte",
+    "autore": "Matteo Riva",
+    "anno": 2022,
+    "pagine": 384,
+    "disponibile": false,
     "generi": [
-      "ragazzi",
-      "fantasy"
+      "fantascienza",
+      "avventura"
     ]
   },
   {
     "id": 3,
-    "titolo": "Notte a Venezia",
-    "autore": "Elena Marchi",
-    "anno": 2020,
-    "pagine": 340,
-    "disponibile": false,
+    "titolo": "Le ricette di nonna Ada",
+    "autore": "Elisa Ferraro",
+    "anno": 2017,
+    "pagine": 192,
+    "disponibile": true,
     "generi": [
-      "narrativa",
-      "romantico"
+      "cucina",
+      "tradizioni"
     ]
   },
   {
     "id": 4,
-    "titolo": "Storia del computer",
-    "autore": "Marco Valli",
-    "anno": 2012,
-    "pagine": 410,
+    "titolo": "Una città senza orologi",
+    "autore": "Lorenzo Bassi",
+    "anno": 2021,
+    "pagine": 276,
     "disponibile": true,
     "generi": [
-      "saggistica"
+      "fantasy",
+      "narrativa"
     ]
   },
   {
     "id": 5,
-    "titolo": "Il gatto astronauta",
-    "autore": "Sara Fontana",
-    "anno": 2021,
-    "pagine": 96,
+    "titolo": "Piccoli esploratori del mare",
+    "autore": "Giulia De Luca",
+    "anno": 2023,
+    "pagine": 128,
     "disponibile": true,
     "generi": [
-      "ragazzi"
+      "ragazzi",
+      "natura"
     ]
   },
   {
     "id": 6,
-    "titolo": "L'ultimo faro",
-    "autore": "Luca Ferri",
-    "anno": 2009,
-    "pagine": 220,
+    "titolo": "L'enigma della villa rossa",
+    "autore": "Alessandro Greco",
+    "anno": 2018,
+    "pagine": 298,
     "disponibile": false,
     "generi": [
-      "narrativa",
-      "avventura"
+      "giallo",
+      "thriller"
     ]
   },
   {
     "id": 7,
-    "titolo": "Cuori di ferro",
-    "autore": "Giorgio Rizzo",
-    "anno": 2017,
-    "pagine": 305,
+    "titolo": "Sentieri delle Dolomiti",
+    "autore": "Marta Pellegrini",
+    "anno": 2016,
+    "pagine": 224,
     "disponibile": true,
     "generi": [
-      "fantasy",
-      "avventura"
+      "viaggi",
+      "natura"
     ]
   },
   {
     "id": 8,
-    "titolo": "Il mistero del porto",
-    "autore": "Anna Bellini",
-    "anno": 2019,
-    "pagine": 260,
+    "titolo": "L'estate dei girasoli",
+    "autore": "Federica Romano",
+    "anno": 2020,
+    "pagine": 240,
     "disponibile": true,
     "generi": [
-      "giallo"
+      "romantico",
+      "narrativa"
     ]
   },
   {
     "id": 9,
-    "titolo": "Cucina in dieci minuti",
-    "autore": "Chiara Longo",
-    "anno": 2016,
-    "pagine": 150,
-    "disponibile": true,
+    "titolo": "Il manuale delle stelle",
+    "autore": "Riccardo Neri",
+    "anno": 2024,
+    "pagine": 336,
+    "disponibile": false,
     "generi": [
-      "cucina"
+      "scienza",
+      "astronomia"
     ]
   },
   {
     "id": 10,
-    "titolo": "Reti e protocolli",
-    "autore": "Marco Valli",
-    "anno": 2022,
-    "pagine": 380,
-    "disponibile": false,
+    "titolo": "Disegnare mondi",
+    "autore": "Valentina Costa",
+    "anno": 2015,
+    "pagine": 184,
+    "disponibile": true,
     "generi": [
-      "saggistica",
-      "informatica"
+      "arte",
+      "saggistica"
     ]
   },
   {
     "id": 11,
-    "titolo": "Le stelle di agosto",
-    "autore": "Elena Marchi",
-    "anno": 2014,
-    "pagine": 198,
+    "titolo": "La locanda dei ricordi",
+    "autore": "Stefano Martini",
+    "anno": 2012,
+    "pagine": 320,
     "disponibile": true,
     "generi": [
-      "romantico"
+      "narrativa",
+      "storico"
     ]
   },
   {
     "id": 12,
-    "titolo": "Programmare con calma",
-    "autore": "Davide Conti",
-    "anno": 2023,
-    "pagine": 275,
+    "titolo": "Robot a scuola",
+    "autore": "Paola Gatti",
+    "anno": 2025,
+    "pagine": 156,
     "disponibile": true,
     "generi": [
-      "informatica"
+      "ragazzi",
+      "fantascienza"
     ]
   },
   {
     "id": 13,
-    "titolo": "Il bosco sussurra",
-    "autore": "Paolo Neri",
-    "anno": 2020,
-    "pagine": 134,
+    "titolo": "Il caso del quadro scomparso",
+    "autore": "Claudio Vitale",
+    "anno": 2019,
+    "pagine": 270,
     "disponibile": false,
     "generi": [
-      "ragazzi",
-      "fantasy"
+      "giallo",
+      "arte"
     ]
   },
   {
     "id": 14,
-    "titolo": "Delitto al museo",
-    "autore": "Giorgio Rizzo",
-    "anno": 2018,
-    "pagine": 312,
+    "titolo": "Orto sul balcone",
+    "autore": "Silvia Marchetti",
+    "anno": 2021,
+    "pagine": 144,
     "disponibile": true,
     "generi": [
-      "giallo"
+      "giardinaggio",
+      "saggistica"
     ]
   },
   {
     "id": 15,
-    "titolo": "Viaggio in bicicletta",
-    "autore": "Sara Fontana",
-    "anno": 2013,
-    "pagine": 188,
+    "titolo": "Il viaggio di Nadir",
+    "autore": "Davide Leone",
+    "anno": 2014,
+    "pagine": 352,
     "disponibile": true,
     "generi": [
       "avventura",
-      "saggistica"
+      "narrativa"
     ]
   }
 ]
