@@ -21,3 +21,6 @@
 
 ## Note per Esercizio v0.1 per 23/11/26
 > Per visualizzare index.php su browser spostare tutta la cartella in __C:\xampp\php__ ed eseguire questo comando nel terminale --> __.\php.exe -S localhost:8000 -t "C:\xampp\php\Progetto\Progetto-Tpsit\miaCartella"__
+
+## Note per esercizio v0.2 per 30/11/26
+> Fermarsi a _Consegna 1_ / _Pagina 5_
