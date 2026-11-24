@@ -20,4 +20,4 @@
 # Titolo-B
 
 ## Note per Esercizio v0.1 per 23/11/26
-> Per visualizzare index.php su browser spostare tutta la cartella in __C:\xampp\php\Progetto__ ed eseguire questo comando nel terminale --> __.\php.exe -S localhost:8000 -t "C:\xampp\php\Progetto\esempio_v0.1"__
+> Per visualizzare index.php su browser spostare tutta la cartella in __C:\xampp\php\Progetto__ ed eseguire questo comando nel terminale --> __.\php.exe -S localhost:8000 -t "C:\xampp\php\Progetto\miaCartella"__
