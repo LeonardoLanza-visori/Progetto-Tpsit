@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+<head><meta charset="utf-8"><title>Biblioteca</title>
+<style>body{font-family:sans-serif;margin:2em}table{border-collapse:collapse}td,th{border:1px solid #999;padding:4px 8px}</style>
+</head>
+<body>
+<h1>Biblioteca</h1>
+Genere: <input id="genere" placeholder="es. giallo"> <button onclick="carica()">Cerca</button>
+<p id="stat"></p>
+<table id="tabella"></table>
+<script>
+function escapi(testo) {
+  return String(testo)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+async function carica() {
+  const genere = document.getElementById('genere').value.trim();
+  const risposta = await fetch('api.php?genere=' + encodeURIComponent(genere));
+  const libri = await risposta.json();
+
+  let html = '<tr><th>ID</th><th>Titolo</th><th>Autore</th><th>Anno</th><th>Pagine</th><th>Disponibile</th><th>Generi</th></tr>';
+  for (const l of libri) {
+    html += `<tr><td>${escapi(l.id)}</td><td>${escapi(l.titolo)}</td><td>${escapi(l.autore)}</td><td>${escapi(l.anno)}</td><td>${escapi(l.pagine)}</td><td>${l.disponibile ? 'sì' : 'no'}</td><td>${escapi(l.generi.join(', '))}</td></tr>`;
+  }
+  document.getElementById('tabella').innerHTML = html;
+
+  const s = await (await fetch('api.php?stat=disponibili')).json();
+  document.getElementById('stat').textContent =
+    'Libri nel catalogo: ' + s.totale + ' - disponibili: ' + s.disponibili + ' (' + s.percentuale_disponibili + '%)';
+}
+
+carica();
+</script>
+</body>
+</html>

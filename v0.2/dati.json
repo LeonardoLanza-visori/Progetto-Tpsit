@@ -1,0 +1,175 @@
+[
+  {
+    "id": 1,
+    "titolo": "La casa sul fiume",
+    "autore": "Anna Bellini",
+    "anno": 2015,
+    "pagine": 280,
+    "disponibile": true,
+    "generi": [
+      "narrativa",
+      "giallo"
+    ]
+  },
+  {
+    "id": 2,
+    "titolo": "Il drago di carta",
+    "autore": "Paolo Neri",
+    "anno": 2018,
+    "pagine": 120,
+    "disponibile": true,
+    "generi": [
+      "ragazzi",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 3,
+    "titolo": "Notte a Venezia",
+    "autore": "Elena Marchi",
+    "anno": 2020,
+    "pagine": 340,
+    "disponibile": false,
+    "generi": [
+      "narrativa",
+      "romantico"
+    ]
+  },
+  {
+    "id": 4,
+    "titolo": "Storia del computer",
+    "autore": "Marco Valli",
+    "anno": 2012,
+    "pagine": 410,
+    "disponibile": true,
+    "generi": [
+      "saggistica"
+    ]
+  },
+  {
+    "id": 5,
+    "titolo": "Il gatto astronauta",
+    "autore": "Sara Fontana",
+    "anno": 2021,
+    "pagine": 96,
+    "disponibile": true,
+    "generi": [
+      "ragazzi"
+    ]
+  },
+  {
+    "id": 6,
+    "titolo": "L'ultimo faro",
+    "autore": "Luca Ferri",
+    "anno": 2009,
+    "pagine": 220,
+    "disponibile": false,
+    "generi": [
+      "narrativa",
+      "avventura"
+    ]
+  },
+  {
+    "id": 7,
+    "titolo": "Cuori di ferro",
+    "autore": "Giorgio Rizzo",
+    "anno": 2017,
+    "pagine": 305,
+    "disponibile": true,
+    "generi": [
+      "fantasy",
+      "avventura"
+    ]
+  },
+  {
+    "id": 8,
+    "titolo": "Il mistero del porto",
+    "autore": "Anna Bellini",
+    "anno": 2019,
+    "pagine": 260,
+    "disponibile": true,
+    "generi": [
+      "giallo"
+    ]
+  },
+  {
+    "id": 9,
+    "titolo": "Cucina in dieci minuti",
+    "autore": "Chiara Longo",
+    "anno": 2016,
+    "pagine": 150,
+    "disponibile": true,
+    "generi": [
+      "cucina"
+    ]
+  },
+  {
+    "id": 10,
+    "titolo": "Reti e protocolli",
+    "autore": "Marco Valli",
+    "anno": 2022,
+    "pagine": 380,
+    "disponibile": false,
+    "generi": [
+      "saggistica",
+      "informatica"
+    ]
+  },
+  {
+    "id": 11,
+    "titolo": "Le stelle di agosto",
+    "autore": "Elena Marchi",
+    "anno": 2014,
+    "pagine": 198,
+    "disponibile": true,
+    "generi": [
+      "romantico"
+    ]
+  },
+  {
+    "id": 12,
+    "titolo": "Programmare con calma",
+    "autore": "Davide Conti",
+    "anno": 2023,
+    "pagine": 275,
+    "disponibile": true,
+    "generi": [
+      "informatica"
+    ]
+  },
+  {
+    "id": 13,
+    "titolo": "Il bosco sussurra",
+    "autore": "Paolo Neri",
+    "anno": 2020,
+    "pagine": 134,
+    "disponibile": false,
+    "generi": [
+      "ragazzi",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 14,
+    "titolo": "Delitto al museo",
+    "autore": "Giorgio Rizzo",
+    "anno": 2018,
+    "pagine": 312,
+    "disponibile": true,
+    "generi": [
+      "giallo"
+    ]
+  },
+  {
+    "id": 15,
+    "titolo": "Viaggio in bicicletta",
+    "autore": "Sara Fontana",
+    "anno": 2013,
+    "pagine": 188,
+    "disponibile": true,
+    "generi": [
+      "avventura",
+      "saggistica"
+    ]
+  }
+]
